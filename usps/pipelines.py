@@ -50,6 +50,5 @@ class GeoJSONOutput(object):
                     "collection_times": item['collection_times'],
                 }
             }
-            line = json.dumps(geojson_feature) + ",\n"
-            f.write(line)
+            f.write(json.dumps(geojson_feature) + "\n")
         return item
