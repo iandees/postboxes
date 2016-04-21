@@ -32,8 +32,8 @@ class GeoJSONOutput(object):
                 raise
 
     def process_item(self, item, spider):
-        prefix = "output/%s" % item['address']['postcode'][:2]
-        filename = "%s/%s.geojsonlines" % (prefix, item['address']['postcode'])
+        prefix = "../data/%s" % item['address']['state'].lower()
+        filename = "%s/%sxx.geojson" % (prefix, item['address']['postcode'][:3])
         self.mkdir_p(prefix)
 
         with open(filename, 'a') as f:
