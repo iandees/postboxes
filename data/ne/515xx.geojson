@@ -1,0 +1,4 @@
+{"type": "FeatureCollection", "features": [
+{"geometry": {"type": "Point", "coordinates": [-95.92786602, 41.259770812]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "5:00pm"}, {"days": "Sat", "time": "1:00pm"}, {"days": "Sun", "time": "Closed"}], "id": "5151000001", "name": "USPS COLLECTION BOX - BLUE BOX", "address": {"city": "OMAHA", "state": "NE", "street": "2810 N 9TH ST", "postcode": "51510"}}},
+{"geometry": {"type": "Point", "coordinates": [-96.177318827, 41.284840088]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "12:00pm"}, {"days": "Sat", "time": "1:00pm"}, {"days": "Sun", "time": "Closed"}], "id": "5151000002", "name": "USPS COLLECTION BOX - BLUE BOX", "address": {"city": "OMAHA", "state": "NE", "street": "950 LOCUST ST", "postcode": "51510"}}}
+]}

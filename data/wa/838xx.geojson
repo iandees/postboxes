@@ -1,0 +1,3 @@
+{"type": "FeatureCollection", "features": [
+{"geometry": {"type": "Point", "coordinates": [-116.458597048, 48.488527056]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Sat", "time": "5:00pm"}, {"days": "Sun", "time": "Closed"}], "id": "8386500000", "name": "USPS COLLECTION BOX - BLUE BOX", "address": {"city": "COLBURN-ELMIRA", "state": "WA", "street": "490870 HIGHWAY 95", "postcode": "83865"}}}
+]}

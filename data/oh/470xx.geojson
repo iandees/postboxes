@@ -1,0 +1,4 @@
+{"type": "FeatureCollection", "features": [
+{"geometry": {"type": "Point", "coordinates": [-84.8156022282, 39.5681448813]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "4:00pm"}, {"days": "Sat", "time": "11:45am"}, {"days": "Sun", "time": "Closed"}], "id": "4700300000", "name": "USPS COLLECTION BOX - BLUE BOX", "address": {"city": "COLLEGE CORNER", "state": "OH", "street": "18 LIBERTY AVE", "postcode": "47003"}}},
+{"geometry": {"type": "Point", "coordinates": [-84.8156022282, 39.5681448813]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "4:00pm"}, {"days": "Sat", "time": "11:45am"}, {"days": "Sun", "time": "Closed"}], "id": "4700300001", "name": "USPS COLLECTION BOX - PO LOBBY", "address": {"city": "COLLEGE CORNER", "state": "OH", "street": "18 LIBERTY AVE", "postcode": "47003"}}}
+]}

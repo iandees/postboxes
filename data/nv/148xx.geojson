@@ -1,0 +1,4 @@
+{"type": "FeatureCollection", "features": [
+{"geometry": {"type": "Point", "coordinates": [-77.8530634267, 42.4781243954]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "4:45pm"}, {"days": "Sat", "time": "11:45am"}, {"days": "Sun", "time": "Closed"}], "id": "1488400001", "name": "USPS COLLECTION BOX - BLUE BOX", "address": {"city": "SWAIN", "state": "NV", "street": "2215 COUNTY ROAD 24", "postcode": "14884"}}},
+{"geometry": {"type": "Point", "coordinates": [-77.8963473601, 42.4738402225]}, "type": "Feature", "properties": {"collection_times": [{"days": "Mon-Fri", "time": "4:45pm"}, {"days": "Sat", "time": "11:45am"}, {"days": "Sun", "time": "Closed"}], "id": "1488400002", "name": "USPS COLLECTION BOX - PO LOBBY", "address": {"city": "SWAIN", "state": "NV", "street": "2215 COUNTY ROAD 24", "postcode": "14884"}}}
+]}
