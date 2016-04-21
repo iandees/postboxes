@@ -22,9 +22,11 @@ class CollectionBoxSpider(scrapy.Spider):
                 collection_times.append(dict(days=days, time=hour))
 
             address_info = item.xpath('*/div[@class="address"]')[0]
+            # sometimes the city is blank for whatever reason
+            city_info = address_info.xpath('span[@class="cityLn"]/text()')
             address = {
                 "street": address_info.xpath('span[@class="addressLn"]/text()')[0].extract(),
-                "city": address_info.xpath('span[@class="cityLn"]/text()')[0].extract(),
+                "city": city_info[0].extract() if city_info else None,
                 "state": address_info.xpath('span[@class="stateLn"]/text()')[0].extract(),
                 "postcode": address_info.xpath('span[@class="zip-code"]/text()')[0].extract(),
             }
